@@ -96,6 +96,7 @@ public class QueryUtils {
     }
 
     public static List<Books> fetchBookData(String requestUrl) {
+
         // Create URL object
         URL url = createUrl(requestUrl);
 
